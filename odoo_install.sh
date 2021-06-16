@@ -24,7 +24,7 @@ INSTALL_WKHTMLTOPDF="True"
 OE_PORT="8069"
 # Choose the Odoo version which you want to install. For example: 13.0, 12.0, 11.0 or saas-18. When using 'master' the master version will be installed.
 # IMPORTANT! This script contains extra libraries that are specifically needed for Odoo 13.0
-OE_VERSION="13.0"
+OE_VERSION="12.0"
 # Set this to True if you want to install the Odoo enterprise version!
 IS_ENTERPRISE="False"
 # Set this to True if you want to install Nginx!
@@ -35,7 +35,7 @@ OE_SUPERADMIN="admin"
 GENERATE_RANDOM_PASSWORD="True"
 OE_CONFIG="${OE_USER}-server"
 # Set the website name
-WEBSITE_NAME="pos.alshabhana.com"
+WEBSITE_NAME="www.odoo.ae"
 # Set the default Odoo longpolling port (you still have to use -c /etc/odoo-server.conf for example to use this.)
 LONGPOLLING_PORT="8072"
 # Set to "True" to install certbot and have ssl enabled, "False" to use http
